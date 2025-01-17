@@ -1,7 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2D Orbit Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>garfunk</p>
+  <header>
+    <h1>2D Orbit Simulator</h1>
+  </header>
+  <main>
+    <canvas id="simulationCanvas"></canvas>
+    <div id="controls">
+      <button onclick="startSimulation()">Start</button>
+      <button onclick="pauseSimulation()">Pause</button>
+      <button onclick="resetSimulation()">Reset</button>
+    </div>
+  </main>
+  <footer>
+    <p>Created by [Your Name]</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
