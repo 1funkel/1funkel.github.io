@@ -12,8 +12,9 @@ body {
   }
   
   header, footer {
+    padding:80px;
     text-align: center;
-    margin: 10000px;
+    margin: 20px;
   }
   
   canvas {
