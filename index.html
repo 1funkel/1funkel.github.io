@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2D Orbit Simulator</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Resizable Screen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .screen {
+            width: 80vw;
+            height: 80vh;
+            background-color: white;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>2D Orbit Simulator</h1>
-  </header>
-  <main>
-    <canvas id="simulationCanvas"></canvas>
-    <div id="controls">
-      <button onclick="startSimulation()">Start</button>
-      <button onclick="pauseSimulation()">Pause</button>
-      <button onclick="resetSimulation()">Reset</button>
-    </div>
-  </main>
-  <footer>
-    <p>Created by [Your Name]</p>
-  </footer>
-  <script src="script.js"></script>
+    <div class="screen">Centered Screen</div>
 </body>
 </html>
