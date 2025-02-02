@@ -13,8 +13,8 @@ body {
 }
 
 .screen {
-  width: calc(100vh - 100px);
-  height: calc(100vh - 100px);
+  width: calc(512px);
+  height: calc(512px);
   background-color: white;
   border: 2px solid black;
   display: flex;
